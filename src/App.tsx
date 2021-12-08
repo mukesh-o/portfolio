@@ -1,12 +1,13 @@
 import React from "react";
-import "./App.css";
 
-function App() {
+import Root from "./components/Root";
+
+const App: React.FC = () => {
   return (
-    <div>
-      <header>Mukesh</header>
+    <div className="text-white bg-primary">
+      <Root />
     </div>
   );
-}
+};
 
 export default App;
