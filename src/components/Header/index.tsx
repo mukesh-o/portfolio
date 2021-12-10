@@ -4,7 +4,7 @@ import name from "../../images/name.png";
 
 const Header: React.FC = () => {
   return (
-    <section className="py-4 px-10 flex justify-between fixed w-screen">
+    <section className="bg-primary py-4 px-10 flex justify-between fixed w-screen">
       <div>
         <img src={name} alt="name" />
       </div>
