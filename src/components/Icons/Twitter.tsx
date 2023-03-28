@@ -1,8 +1,6 @@
-import React from "react";
-
 import { IIconProps } from "./interfaces";
 
-const TwitterIcon: React.FC<IIconProps> = ({ className }) => {
+export default function TwitterIcon({ className }: IIconProps): JSX.Element {
   const navigateToTwitter = () => {
     window.open("http://twitter.com/MukeSh_0_o", "_blank");
   };
@@ -22,6 +20,4 @@ const TwitterIcon: React.FC<IIconProps> = ({ className }) => {
       />
     </svg>
   );
-};
-
-export default TwitterIcon;
+}

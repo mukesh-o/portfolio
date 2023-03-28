@@ -1,8 +1,6 @@
-import React from "react";
-
 import { IIconProps } from "./interfaces";
 
-const GithubIcon: React.FC<IIconProps> = ({ className }) => {
+export default function GithubIcon({ className }: IIconProps): JSX.Element {
   const navigateToGithub = () => {
     window.open("https://github.com/mukesh-o", "_blank");
   };
@@ -45,6 +43,4 @@ const GithubIcon: React.FC<IIconProps> = ({ className }) => {
       />
     </svg>
   );
-};
-
-export default GithubIcon;
+}

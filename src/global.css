@@ -25,6 +25,23 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.terminal-top-btn {
-  
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2235;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #869fc4;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #576a88;
 }

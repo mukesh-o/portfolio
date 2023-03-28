@@ -1,12 +1,10 @@
-import React from "react";
-
 interface IProps {
   children?: JSX.Element;
 }
 
 export default function TerminalFrame({
   children,
-}: IProps): JSX.Element | null {
+}: IProps): JSX.Element {
   const topBtnClasses =
     "pl-[6px] pb-[2.5px] pr-[7px] rounded-xl text-white mr-2 cursor-pointer";
 
