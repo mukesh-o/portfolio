@@ -20,7 +20,7 @@ export default function Contact(): JSX.Element {
     }));
   }
 
-  function onSubmit(e: React.MouseEvent<HTMLButtonElement>) {
+  function onSubmit() {
     window.open(
       `mailto:hello@mukesh.tech?subject=${emailForm.subject}&body=${emailForm.description}`,
       "_blank"

@@ -11,7 +11,7 @@ export default function Card({
   description,
   linkToProduct,
 }: IProps): JSX.Element {
-  function onClick(e: React.MouseEvent<HTMLDivElement>) {
+  function onClick() {
     window.open(linkToProduct, "_blank");
   }
 
@@ -21,6 +21,7 @@ export default function Card({
       onClick={onClick}
     >
       <img
+        alt=""
         className="h-[200px] w-[200px] sm:w-full xs:w-full sm:h-[350px] xs:h-[250px] rounded-tl rounded-bl sm:rounded-bl-none xs:rounded-bl-none xs:rounded-tr sm:rounded-tr"
         src={imgSrc}
       />

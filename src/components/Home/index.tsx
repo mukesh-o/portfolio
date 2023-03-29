@@ -6,7 +6,7 @@ export default function Home(): JSX.Element {
     >
       <p className="text-8xl md:text-6xl sm:text-4xl xs:text-4xl">
         Hi, <br />
-        I'm <span className="text-code-green">Mukesh</span>, <br />
+        {`I'm`} <span className="text-code-green">Mukesh</span>, <br />
         web developer
       </p>
       <p className="text-xl mt-4">

@@ -11,7 +11,7 @@ export default function Root(): JSX.Element {
   const [changeHeaderColor, setChangeHeaderColor] =
     React.useState<boolean>(false);
 
-  function onScroll(e: React.MouseEvent<HTMLDivElement>) {
+  function onScroll() {
     if (window.pageYOffset !== undefined) {
       setChangeHeaderColor(Boolean(window.pageYOffset > 20));
     }
