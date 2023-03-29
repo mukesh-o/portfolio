@@ -28,7 +28,7 @@ export default function Contact(): JSX.Element {
   }
 
   return (
-    <section id="contact" className="min-h-[100vh] py-[25%] md:py-[20%]">
+    <section id="contact" className="min-h-[100vh] py-[25vh] md:py-[20%]">
       <p className="text-5xl">Contact</p>
       <p className="text-lg">Got something exciting for me to work on ?</p>
       <div className="grid grid-cols-1 gap-6 justify-items-center py-[8%] px-[5%]">

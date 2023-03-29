@@ -1,6 +1,6 @@
 export default function About(): JSX.Element {
   return (
-    <section id="about" className="min-h-[100vh] py-[25%] md:py-[20%]">
+    <section id="about" className="min-h-[100vh] py-[25vh] md:py-[20%]">
       <p className="text-5xl">About me</p>
       <div className="flex my-10 p-10 bg-gray rounded-xl md:block sm:block xs:block">
         <div className="w-full flex justify-center">
