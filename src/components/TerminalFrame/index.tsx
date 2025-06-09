@@ -11,7 +11,7 @@ export default function TerminalFrame({
   return (
     <div className={`w-full md:w-[40%]`}>
       <div className="p-2 px-4 bg-gray rounded-t-lg">
-        <span className={`bg-red ${topBtnClasses}`}>x</span>
+        <span className={`bg-red ${topBtnClasse}`}>x</span>
         <span className={`bg-yellow ${topBtnClasses}`}>–</span>
         <span className={`bg-green ${topBtnClasses}`}>□</span>
       </div>

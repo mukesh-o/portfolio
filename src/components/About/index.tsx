@@ -21,7 +21,7 @@ export default function About(): JSX.Element {
             products.
           </p>
           <br />
-          <p className="text-xl pb-2">
+          <p className="text-xl pb-2"
             My experties are in following tech/tools
           </p>
           <p className="text-xl pb-2">
